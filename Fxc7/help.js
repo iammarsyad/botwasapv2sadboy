@@ -7,9 +7,9 @@ ${instagram}
 \`\`\`SUBSCRIBE😁\`\`\`
 ${yt}
 
-\`\`\`GROUP OFFICIAL\`\`\`
-https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
-
+\`\`\`GROUP\`\`\`
+https://chat.whatsapp.com/LMem1wrHph2BT72evQXlRn
+https://chat.whatsapp.com/GcHB3sosWE03OoE55c4yJ7
 
 \`\`\`HARAP BACA NOTE DIBAWAH SEBELUM\`\`\`
 \`\`\`MENGGUNAKAN BOT\`\`\`
@@ -28,9 +28,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┣⊱  ❌ *CALL & VC*
 ┣⊱  \`\`\`Melanggar??\`\`\` *Banned*
 ┬
-╰────────────────────────
-
-
+╰──────────────────
 ╭──────「 *ABOUT ${name}* 」
 ┴
 │➻ *${prefix}report lapor bug*
@@ -46,9 +44,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}premiumlist*
 │➻ *${prefix}bahasa*
 ┬
-╰────────────────────────
-
-
+╰──────────────────
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭──────「 *MEDIA DOWNLOADER* 」
 ┴
 │➻ *${prefix}tiktokstalk username*
@@ -66,9 +62,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}trendtwit*
 │➻ *${prefix}google berita terkini*
 ┬
-╰────────────────────────
-
-
+╰─────────────────
 ╭──────「 *CREATOR MENU* 」
 ┴
 │➻ *${prefix}quotemaker tx/wtrmk/tema*
@@ -77,35 +71,35 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}trigger reply image*
 │➻ *${prefix}rip reply image*
 │➻ *${prefix}wasted reply image*
-│➻ *${prefix}cphlogo FXC7/BOT*
-│➻ *${prefix}cglitch FXC7/BOT*
-│➻ *${prefix}cpubg FXC7/BOT*
-│➻ *${prefix}cml FXC7*
+│➻ *${prefix}cphlogo Ikyy/BOT*
+│➻ *${prefix}cglitch Ikyy/BOT*
+│➻ *${prefix}cpubg Ikyy/BOT*
+│➻ *${prefix}cml Ikyy*
 │
-│➻ *${prefix}tahta FXC7*
-│➻ *${prefix}croman FXC7 dan BOT*
-│➻ *${prefix}cthunder FXC7*
-│➻ *${prefix}cbpink FXC7*
-│➻ *${prefix}cmwolf FXC7*
-│➻ *${prefix}csky FXC7*
-│➻ *${prefix}cwooden FXC7*
-│➻ *${prefix}cflower FXC7*
-│➻ *${prefix}clove FXC7*
-│➻ *${prefix}ccrossfire FXC7*
-│➻ *${prefix}cnaruto FXC7*
-│➻ *${prefix}cparty FXC7*
-│➻ *${prefix}cshadow FXC7*
-│➻ *${prefix}cminion FXC7*
-│➻ *${prefix}cneon FXC7*
-│➻ *${prefix}cneon2 FXC7*
-│➻ *${prefix}cneongreen FXC7*
-│➻ *${prefix}c3d FXC7*
-│➻ *${prefix}csky FXC7*
+│➻ *${prefix}tahta Ikyy*
+│➻ *${prefix}croman Ikyy dan BOT*
+│➻ *${prefix}cthunder Ikyy*
+│➻ *${prefix}cbpink Ikyy*
+│➻ *${prefix}cmwolf Ikyy*
+│➻ *${prefix}csky Ikyy*
+│➻ *${prefix}cwooden Ikyy*
+│➻ *${prefix}cflower Ikyy*
+│➻ *${prefix}clove Ikyy*
+│➻ *${prefix}ccrossfire Ikyy*
+│➻ *${prefix}cnaruto Ikyy*
+│➻ *${prefix}cparty Ikyy*
+│➻ *${prefix}cshadow Ikyy*
+│➻ *${prefix}cminion Ikyy*
+│➻ *${prefix}cneon Ikyy*
+│➻ *${prefix}cneon2 Ikyy*
+│➻ *${prefix}cneongreen Ikyy*
+│➻ *${prefix}c3d Ikyy*
+│➻ *${prefix}csky Ikyy*
 │➻ *${prefix}tts id Haii*
-│➻ *${prefix}ttp Fxc7*
-│➻ *${prefix}cballon Fxc7*
-│➻ *${prefix}cpaper Fxc7*
-│➻ *${prefix}slide Fxc7 BOT WA*
+│➻ *${prefix}ttp Ikyy*
+│➻ *${prefix}cballon Ikyy*
+│➻ *${prefix}cpaper Ikyy*
+│➻ *${prefix}slide Ikyy BOT WA*
 │
 │➻ *${prefix}stiker*
 │➻ *${prefix}gifstiker*
@@ -115,7 +109,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}tomp3*
 │➻ *${prefix}ocr*
 ┬
-╰──────────────────────────
+╰────────────────────
 
 
 ╭───────「 *GROUP ONLY* 」
@@ -140,9 +134,9 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}animekiss*
 │➻ *${prefix}wink*
 ┬
-╰───────────────────────
+╰──────────────────
 
-╭────────────────────────
+╭──────────────────
 ┴
 │➻ *${prefix}welcome On/Off*
 │➻ *${prefix}grup buka/tutup*
@@ -166,9 +160,9 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}openanime*
 │➻ *${prefix}edotense*
 ┬
-╰────────────────────────
+╰─────────────────
 
-╭────────────────────────
+╭─────────────────
 ┴
 │➻ *${prefix}nsfw On/Off*
 │➻ *${prefix}nsfwloli*
@@ -178,7 +172,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}hentai*
 │➻ *${prefix}simih On/Off*
 ┬
-╰────────────────────────
+╰─────────────────
 
 
 ╭──────「 *OTHERS FUN & GAME* 」
@@ -210,20 +204,20 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}katailham*
 │➻ *${prefix}animewp*
 ┬
-╰────────────────────────
+╰──────────────────
 
-╭──────────────────────────
+╭──────────────────
 ┴
 │➻ *${prefix}jarak Banyuwangi/Surabaya*
 │➻ *${prefix}translate en/Apa kabar?*
-│➻ *${prefix}pasangan Farhan/Iriene*
-│➻ *${prefix}gantengcek Farhan*
-│➻ *${prefix}cantikcek Iriene*
-│➻ *${prefix}artinama Farhan*
-│➻ *${prefix}persengay Topan*
-│➻ *${prefix}pbucin Farhan*
-│➻ *${prefix}bpfont Farhan*
-│➻ *${prefix}textstyle FXC7*
+│➻ *${prefix}pasangan Ikyy/Ptri*
+│➻ *${prefix}gantengcek Ikyy*
+│➻ *${prefix}cantikcek Ptri*
+│➻ *${prefix}artinama Ikyy*
+│➻ *${prefix}persengay Amrul*
+│➻ *${prefix}pbucin Ikyy*
+│➻ *${prefix}bpfont Ikyy*
+│➻ *${prefix}textstyle Ikyy*
 │➻ *${prefix}jadwaltv antv*
 │➻ *${prefix}lirik melukis senja*
 │➻ *${prefix}chord Melukis senja*
@@ -239,10 +233,10 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}infoalamat jalan Banyuwangi*
 │➻ *${prefix}playstore WhatsApp*
 ┬
-╰───────────────────────────
+╰────────────────
 
 
-╭────────────────────────
+╭────────────────
 ┴
 │➻ *${prefix}asupan*
 │➻ *${prefix}tebakgambar*
@@ -253,27 +247,27 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}moddroid lightroom*
 │➻ *${prefix}happymod lightroom*
 ┬
-╰────────────────────────
+╰────────────────
 
-╭────────────────────────
+╭────────────────
 ┴
 │➻ *${prefix}cerpen*
 │➻ *${prefix}cersex*
 │➻ *${prefix}xxx japan*
 │➻ *${prefix}pornhub stepMoms*
 ┬
-╰────────────────────────
+╰────────────────
 
-╭────────────────────────
+╭────────────────
 ┴
 │➻ *${prefix}jadwalsholat Banyuwangi*
 │➻ *${prefix}quran*
 │➻ *${prefix}quransurah 1*
 │➻ *${prefix}tafsir kafir*
 ┬
-╰────────────────────────
+╰────────────────
 
-╭────────────────────────
+╭───────────────
 ┴
 │➻ *${prefix}becrypt string*
 │➻ *${prefix}encode64 string*
@@ -290,15 +284,15 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}tinyurl link*
 │➻ *${prefix}bitly link*
 ┬
-╰────────────────────────
+╰──────────────
 
-╭────────────────────────
+╭──────────────
 ┴
 │➻ *${prefix}spamcall 083xxxxxxxxx*
 │➻ *${prefix}spamsms 083xxxxxxxx/jumlah*
 │➻ *${prefix}spamgmail farhanxcode7@gmail.com*
 ┬
-╰────────────────────────
+╰──────────────
 
 
 ╭─────────「 *OWNER ONLY* 」
@@ -322,7 +316,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}getses*
 │➻ *${prefix}leave*
 ┬
-╰────────────────────────
+╰────────────────
 
 
 ╭────────「 *PREMIUM ONLY* 」
@@ -335,17 +329,17 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}joox Monolog Pamungkas*
 │➻ *${prefix}smule Link Video Smule*
 ┬
-╰────────────────────────
+╰───────────
 
 
 ╭─────「 *SUPPORT ${name}* 」
 │
-├➲ *O BOT*
-├➲ *M. HADI FIRMANSYA*
-├➲ *DELIA AULIA*
-├➲ *KEVIN DAVID*
-├➲ *MY TEAM FXC7 BOT*
-╰────────────────────────`
+├➲ *Hans* *<Dev/Author/Admin/Owner2>*
+├➲ *Ikyy* *<Author/Admin/Owner/Admin>*
+├➲ *Amrul Hadi* *<Dev/Author/Admin>*
+├➲ *Nabila* *<Dev/Author/Admin>*
+├➲ *MY TEAM AYBPR* 
+╰───────────────
 }
 
 exports.help = help
