@@ -158,8 +158,8 @@ const getRegisteredRandomId = () => {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const Ikyy nst = ["62895334388886@s.whatsapp.net"] // ubah aja gapapa
-			const Ikyy nst = mek.message.conversation
+			const FarhanGans = ["628311800241@s.whatsapp.net"] // ubah aja gapapa
+			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
 			pushname2 = client.contacts[nameReq] != undefined ? client.contacts[nameReq].vname || client.contacts[nameReq].notify : undefined
