@@ -62,18 +62,18 @@ instagram, yt, groupLink, memberLimit
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Farhan\n'
+            + 'FN:Ikyy nst\n'
             + 'ORG:Creator FXC7;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=628311800241:+62 831-1800-241\n'
+            + 'TEL;type=CELL;type=VOICE;waid=62895334388886:+62 895-3343-88886\n'
             + 'END:VCARD'
 
-prefix = "_"
-name = "~ F X C 7 | B O T"
-rdaftar = "TERIMA KASIH TELAH DAFTAR😁"
-rmenu = "HAI TEMEN FXC7BOT👋"
+prefix = "#"
+name = "Sadboy B O T"
+rdaftar = "TERIMA KASIH SUDAH DAFTAR😁,DAN SEKARANG KAMU BISA MENGAKSES FITUR BOT DENGAN GRATIS! DAN JANGAN LUPA DONASI YA:)"
+rmenu = "HAI SAHABAT SadboyBot👋"
 limitt = 50
 ban = []
-userpremium = ["628311800241@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["62895622002734@s.whatsapp.net","6283843313959@s.whatsapp.net","62895334388886@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -158,8 +158,8 @@ const getRegisteredRandomId = () => {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["628311800241@s.whatsapp.net"] // ubah aja gapapa
-			const farhan = mek.message.conversation
+			const Ikyy nst = ["62895334388886@s.whatsapp.net"] // ubah aja gapapa
+			const Ikyy nst = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
 			pushname2 = client.contacts[nameReq] != undefined ? client.contacts[nameReq].vname || client.contacts[nameReq].notify : undefined
@@ -225,7 +225,7 @@ const getRegisteredRandomId = () => {
             ]
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["628311800241@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["62895622002734@s.whatsapp.net","6283843313959@s.whatsapp.net","62895334388886@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -425,6 +425,7 @@ const getRegisteredRandomId = () => {
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": totalchat}})
 					break
 				case 'totaluser':
+				case 'user':
 					client.updatePresence(from, Presence.composing) 
 					if (!isUser) return reply(mess.only.userB)
 					if (!isOwner) return reply(mess.only.ownerB)    
@@ -438,6 +439,9 @@ const getRegisteredRandomId = () => {
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 		case 'daftar':
+		case 'daf':
+		case 'reg':
+		case 'register':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('kamu sudah terdaftar')
 					if (isBanned) return reply(mess.only.benned)
@@ -488,7 +492,7 @@ const getRegisteredRandomId = () => {
 					me = client.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ Total Pengguna: *${user.length}* User\n⟩➢ *Instagram* : https://www.instagram.com/_farhan_xcode7\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar`
+					teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ Total Pengguna: *${user.length}* User\n⟩➢ *Instagram* : https://www.instagram.com/kapten.sadboy69\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ AYBPR Team`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -535,16 +539,17 @@ const getRegisteredRandomId = () => {
 					}
 					await limitAdd(sender) 
 					break 
-				case 'gifstiker':
-				case 'stiker':
+			case 'stiker': 
 				case 'sticker':
+				case 'stikergif':
+				case 'stickergif':
 				case 's':
-						if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
+				    if (isLimit(sender)) return reply(ind.limitend(pusname))
+                    await limitAdd(sender)
+					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
-						if (isLimit(sender)) return reply(limitend(pushname2))
-						reply(mess.wait)
-						const ran= getRandom('.webp')
+						ran = getRandom('.webp')
 						await ffmpeg(`./${media}`)
 							.input(media)
 							.on('start', function (cmd) {
@@ -553,12 +558,12 @@ const getRegisteredRandomId = () => {
 							.on('error', function (err) {
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
-								reply(mess.error.stick)
+								reply(ind.stikga())
 							})
 							.on('end', function () {
 								console.log('Finish')
-								buff = fs.readFileSync(ran)
-								client.sendMessage(from, buff, sticker, {quoted: mek})
+								buffer = fs.readFileSync(ran)
+								client.sendMessage(from, buffer, sticker, {quoted: mek})
 								fs.unlinkSync(media)
 								fs.unlinkSync(ran)
 							})
@@ -568,8 +573,8 @@ const getRegisteredRandomId = () => {
 					} else if ((isMedia && mek.message.videoMessage.seconds < 11 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
 						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
-						const ran= getRandom('.webp')
-						reply(mess.wait)
+						ran = getRandom('.webp')
+						reply(ind.wait())
 						await ffmpeg(`./${media}`)
 							.inputFormat(media.split('.')[1])
 							.on('start', function (cmd) {
@@ -579,65 +584,27 @@ const getRegisteredRandomId = () => {
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`\`\`\`Gagal, pada saat mengkonversi ${tipe} ke stiker\`\`\``)
+								reply(ind.stikga())
 							})
 							.on('end', function () {
 								console.log('Finish')
-								buff = fs.readFileSync(ran)
-								client.sendMessage(from, buff, sticker, {quoted: mek})
+								buffer = fs.readFileSync(ran)
+								client.sendMessage(from, buffer, sticker, {quoted: mek})
 								fs.unlinkSync(media)
 								fs.unlinkSync(ran)
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
 							.toFormat('webp')
 							.save(ran)
-					} else if ((isMedia || isQuotedImage) && args[0] == 'nobg') {
-						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
-						const media = await client.downloadAndSaveMediaMessage(encmedia)
-						ranw = getRandom('.webp')
-						ranp = getRandom('.png')
-						reply(mess.wait)
-						keyrmbg = 'bcAvZyjYAjKkp1cmK8ZgQvWH'
-						await removeBackgroundFromImageFile({path: media, apiKey: keyrmbg.result, size: 'auto', type: 'auto', ranp}).then(res => {
-							fs.unlinkSync(media)
-							let buffer = Buffer.from(res.base64img, 'base64')
-							fs.writeFileSync(ranp, buffer, (err) => {
-								if (err) return reply('Gagal, Terjadi kesalahan, silahkan coba beberapa saat lagi.')
-							})
-							exec(`ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${ranw}`, (err) => {
-								fs.unlinkSync(ranp)
-								if (err) return reply(mess.error.stick)
-								buff = fs.readFileSync(ranw)
-								client.sendMessage(from, buff, sticker, {quoted: mek})
-							})
-						})
-					} else {
-						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
+							} else {
+						reply(`Kirim gambar dengan caption ${prefix}sticker atau reply/tag gambar`)
 					}
-					await limitAdd(sender) 
-					break 
-					
-				case 'img2url':
-           if (!isUser) return reply(mess.only.userB)
-			if (isBanned) return reply(mess.only.benned)
-			if (isLimit(sender)) return reply(limitend(pushname2))
-					reply(mess.wait)
-            var encmedia  = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
-            var media = await  client.downloadAndSaveMediaMessage(encmedia)
-           const imgbb = require('imgbb-uploader')
-            imgbb('727e7e43f6cda1dfb85d888522fd4ce1', media)
-                .then(data => {
-                    var caps = `「 *IMAGE TO URL* 」\n\n*╠➥  ID :* ${data.id}\n*╠➥  MimeType :* ${data.image.mime}\n*╠➥  Extension :* ${data.image.extension}\n\n*╠➥  URL :* ${data.display_url}`
-                    ibb = fs.readFileSync(media)
-                     client.sendMessage(from, ibb, image, { quoted: mek, caption: caps })
-                })
-                .catch(err => {
-                    throw err
-                })
-            await limitAdd(sender) 	
-            break  
+					break  
 
 					case 'trigger':
+					case 'triggered':
+					case 'triger':
+					case 'trigered':
                         if (!isUser) return reply(mess.only.userB)
                         if (isBanned) return reply (mess.only.benned)
                         if (isLimit(sender)) return reply(limitend(pushname2))
@@ -703,7 +670,7 @@ const getRegisteredRandomId = () => {
 				    await limitAdd(sender) 	
 				    break 
 				case 'owner':
-                 client.sendMessage(from, {displayname: "Fxc7", vcard: vcard}, MessageType.contact, { quoted: mek})
+                 client.sendMessage(from, {displayname: "Ikyy nst", vcard: vcard}, MessageType.contact, { quoted: mek})
                  client.sendMessage(from, 'Jika Mau Save Chat Aja Gan Ntar Disave Back:)',text, { quoted: mek} )
                  break
                  case 'fitnah':	
@@ -1154,6 +1121,8 @@ const getRegisteredRandomId = () => {
 					break 
 
                 case 'report':
+                case 'bugreport':
+                case 'bug':
                 if (isBanned) return reply(mess.only.benned)    
                 if (!isUser) return reply(mess.only.userB)
                      const pesan = body.slice(8)
@@ -1165,10 +1134,11 @@ const getRegisteredRandomId = () => {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628311800241@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6283843313959@s.whatsapp.net','62895622002734@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
+                case 'req':
                 if (isBanned) return reply(mess.only.benned)    
                 if (!isUser) return reply(mess.only.userB)
                      const cfrr = body.slice(8)
@@ -1180,7 +1150,7 @@ const getRegisteredRandomId = () => {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628311800241@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6283843313959@s.whatsapp.net','62895622002734@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
@@ -2513,6 +2483,7 @@ const getRegisteredRandomId = () => {
 					await limitAdd(sender) 
 					break 
 				case 'simi':
+				case 'bot':
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 				if (isLimit(sender)) return reply(limitend(pushname2))
